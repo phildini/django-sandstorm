@@ -1,2 +1,2 @@
-# django-auth-sandstorm
-Django Package for doing authentication with sandstorm.io
+# django-sandstorm
+Django package for helping integrate a django app with sandstorm.io
