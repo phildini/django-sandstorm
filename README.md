@@ -1,3 +1,5 @@
+[![PyPI](https://img.shields.io/pypi/v/django-sandstorm.svg)](https://pypi.python.org/pypi/django-sandstorm)
+
 # django-sandstorm
 Django package for helping integrate a django app with sandstorm.io
 
