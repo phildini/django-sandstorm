@@ -4,10 +4,10 @@ from django.contrib.auth.models import User
 
 class SandstormMiddleware(RemoteUserMiddleware):
     """
-    Requires 'django.contrib.auth.backends.RemoteUserBackend'in 
+    Requires 'django.contrib.auth.backends.RemoteUserBackend' in 
     settings.AUTHENTICATION_BACKENDS
     """
 
-    header = 'X-Sandstorm-User-Id'
+    header = 'HTTP_X_SANDSTORM_USER_ID'
 
 
