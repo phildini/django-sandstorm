@@ -19,4 +19,5 @@ class SandstormMiddleware(RemoteUserMiddleware):
             request.user.first_name = unquote(
                 request.META.get('HTTP_X_SANDSTORM_USERNAME')
             )
-            request.user.save()
+            if request.user.is_authenticated():
+                request.user.save()
